@@ -25,7 +25,7 @@
       try { 
           Class.forName("com.mysql.jdbc.Driver");
           String url = "jdbc:mysql://localhost:3306/new_1122";
-          conn = DriverManager.getConnection(url,"root","cnrkswl2347");
+          conn = DriverManager.getConnection(url,"root","");
           stmt = conn.createStatement();
           sql = "select * from opinion_tbl";
           rs = stmt.executeQuery(sql);
